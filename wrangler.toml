@@ -1,5 +1,4 @@
 name = "franc-portfolio"
-type = "javascript"
 
 # Cloudflare Pages configuration
 pages_build_output_dir = "dist"
@@ -8,9 +7,10 @@ pages_build_output_dir = "dist"
 compatibility_date = "2025-04-02"
 compatibility_flags = ["nodejs_compat"]
 
-# Environment variables can be set here
+# Environment configurations for Cloudflare Pages
+# Supported environments: preview, production
 [env.production]
-name = "franc-portfolio-prod"
+name = "franc-portfolio-production"
 
-[env.staging]
-name = "franc-portfolio-staging"
+[env.preview]
+name = "franc-portfolio-preview"
