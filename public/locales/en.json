@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "gallery": "Gallery",
+    "videobook": "Videobook",
+    "biography": "Biography",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "footer": {
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "common": {
+    "home": "Home",
+    "back": "Back",
+    "close": "Close"
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome to Portfolio",
+      "subtitle": "Explore my work in galleries, videos, biography and more.",
+      "quickNav": "Quick Navigation"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Professional photography collection",
+      "empty": "No images available"
+    },
+    "videobook": {
+      "title": "Videobook",
+      "description": "Video collection and demonstrations",
+      "empty": "No videos available",
+      "duration": "Duration"
+    },
+    "biography": {
+      "title": "Biography",
+      "about": "About",
+      "highlights": "Highlights",
+      "details": "Details",
+      "name": "Name",
+      "height": "Height",
+      "languages": "Languages",
+      "agency": "Signing Agency",
+      "location": "Base Location"
+    },
+    "cv": {
+      "title": "CV",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "languages": "Languages",
+      "period": "Period",
+      "institution": "Institution",
+      "year": "Year",
+      "proficiency": "Proficiency"
+    },
+    "contact": {
+      "title": "Contact",
+      "getInTouch": "Get in Touch",
+      "followMe": "Follow Me",
+      "agencyInfo": "Agency",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "agencyName": "Agency Name",
+      "agencyEmail": "Agency Email",
+      "agencyPhone": "Agency Phone",
+      "empty": "No contact information available"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "gallery": "Galeria",
+    "videobook": "Videobook",
+    "biography": "Biografia",
+    "cv": "CV",
+    "contact": "Contacte"
+  },
+  "footer": {
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Clar",
+    "dark": "Fosc"
+  },
+  "common": {
+    "loading": "Carregant...",
+    "error": "Error",
+    "success": "Èxit"
+  },
+  "pages": {
+    "home": {
+      "title": "Benvingut al meu Portafoli",
+      "subtitle": "Explora el meu treball en galeries, vídeos, biografia i més."
+    },
+    "gallery": {
+      "title": "Galeria",
+      "empty": "No hi ha imatges disponibles"
+    },
+    "videobook": {
+      "title": "Videobook",
+      "empty": "No hi ha vídeos disponibles"
+    },
+    "biography": {
+      "title": "Biografia",
+      "about": "Sobre",
+      "highlights": "Destacats",
+      "details": "Detalls",
+      "height": "Alçada",
+      "languages": "Idiomes",
+      "agency": "Agència de Representació",
+      "location": "Ubicació Base"
+    },
+    "cv": {
+      "title": "CV",
+      "experience": "Experiència",
+      "education": "Educació",
+      "skills": "Habilitats",
+      "languages": "Idiomes"
+    },
+    "contact": {
+      "title": "Contacte",
+      "getInTouch": "Poseu-vos en Contacte",
+      "followMe": "Seguiu-me",
+      "agencyInfo": "Agència",
+      "email": "Correu",
+      "phone": "Telèfon",
+      "location": "Ubicació",
+      "agencyName": "Nom de l'Agència",
+      "agencyEmail": "Correu de l'Agència",
+      "agencyPhone": "Telèfon de l'Agència",
+      "empty": "No hi ha informació de contacte disponible"
+    }
+  }
+}

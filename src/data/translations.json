@@ -1,0 +1,221 @@
+{
+  "en": {
+    "nav": {
+      "gallery": "Gallery",
+      "videobook": "Videobook",
+      "biography": "Biography",
+      "cv": "CV",
+      "contact": "Contact"
+    },
+    "footer": {
+      "theme": "Theme",
+      "language": "Language",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "common": {
+      "home": "Home",
+      "back": "Back",
+      "close": "Close"
+    },
+    "pages": {
+      "home": {
+        "title": "Welcome to Portfolio",
+        "subtitle": "Explore my work in galleries, videos, biography and more.",
+        "quickNav": "Quick Navigation"
+      },
+      "gallery": {
+        "title": "Gallery",
+        "description": "Professional photography collection",
+        "empty": "No images available"
+      },
+      "videobook": {
+        "title": "Videobook",
+        "description": "Video collection and demonstrations",
+        "empty": "No videos available",
+        "duration": "Duration"
+      },
+      "biography": {
+        "title": "Biography",
+        "about": "About",
+        "highlights": "Highlights",
+        "details": "Details",
+        "name": "Name",
+        "height": "Height",
+        "languages": "Languages",
+        "agency": "Signing Agency",
+        "location": "Base Location"
+      },
+      "cv": {
+        "title": "CV",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills",
+        "languages": "Languages",
+        "period": "Period",
+        "institution": "Institution",
+        "year": "Year",
+        "proficiency": "Proficiency"
+      },
+      "contact": {
+        "title": "Contact",
+        "getInTouch": "Get in Touch",
+        "followMe": "Follow Me",
+        "agencyInfo": "Agency",
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location",
+        "agencyName": "Agency Name",
+        "agencyEmail": "Agency Email",
+        "agencyPhone": "Agency Phone",
+        "empty": "No contact information available"
+      }
+    }
+  },
+  "es": {
+    "nav": {
+      "gallery": "Galería",
+      "videobook": "Videografía",
+      "biography": "Biografía",
+      "cv": "CV",
+      "contact": "Contacto"
+    },
+    "footer": {
+      "theme": "Tema",
+      "language": "Idioma",
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "common": {
+      "home": "Inicio",
+      "back": "Atrás",
+      "close": "Cerrar"
+    },
+    "pages": {
+      "home": {
+        "title": "Bienvenido al Portafolio",
+        "subtitle": "Explora mi trabajo en galerías, videos, biografía y mucho más.",
+        "quickNav": "Navegación Rápida"
+      },
+      "gallery": {
+        "title": "Galería",
+        "description": "Colección de fotografía profesional",
+        "empty": "Sin imágenes disponibles"
+      },
+      "videobook": {
+        "title": "Videografía",
+        "description": "Colección de videos y demostraciones",
+        "empty": "Sin videos disponibles",
+        "duration": "Duración"
+      },
+      "biography": {
+        "title": "Biografía",
+        "about": "Acerca de",
+        "highlights": "Destacados",
+        "details": "Detalles",
+        "name": "Nombre",
+        "height": "Altura",
+        "languages": "Idiomas",
+        "agency": "Agencia de Representación",
+        "location": "Ubicación Base"
+      },
+      "cv": {
+        "title": "CV",
+        "experience": "Experiencia",
+        "education": "Educación",
+        "skills": "Habilidades",
+        "languages": "Idiomas",
+        "period": "Período",
+        "institution": "Institución",
+        "year": "Año",
+        "proficiency": "Nivel"
+      },
+      "contact": {
+        "title": "Contacto",
+        "getInTouch": "Ponte en Contacto",
+        "followMe": "Sígueme",
+        "agencyInfo": "Agencia",
+        "email": "Correo Electrónico",
+        "phone": "Teléfono",
+        "location": "Ubicación",
+        "agencyName": "Nombre de la Agencia",
+        "agencyEmail": "Correo de la Agencia",
+        "agencyPhone": "Teléfono de la Agencia",
+        "empty": "Sin información de contacto disponible"
+      }
+    }
+  },
+  "ca": {
+    "nav": {
+      "gallery": "Galeria",
+      "videobook": "Videografia",
+      "biography": "Biografia",
+      "cv": "CV",
+      "contact": "Contacte"
+    },
+    "footer": {
+      "theme": "Tema",
+      "language": "Idioma",
+      "light": "Clar",
+      "dark": "Fosc"
+    },
+    "common": {
+      "home": "Inici",
+      "back": "Enrere",
+      "close": "Tancar"
+    },
+    "pages": {
+      "home": {
+        "title": "Benvingut al Portafoli",
+        "subtitle": "Explora el meu treball en galeries, vídeos, biografia i més.",
+        "quickNav": "Navegació Ràpida"
+      },
+      "gallery": {
+        "title": "Galeria",
+        "description": "Col·lecció de fotografia professional",
+        "empty": "Cap imatge disponible"
+      },
+      "videobook": {
+        "title": "Videografia",
+        "description": "Col·lecció de vídeos i demostracions",
+        "empty": "Cap vídeo disponible",
+        "duration": "Durada"
+      },
+      "biography": {
+        "title": "Biografia",
+        "about": "Sobre",
+        "highlights": "Destacats",
+        "details": "Detalls",
+        "name": "Nom",
+        "height": "Alçada",
+        "languages": "Idiomes",
+        "agency": "Agència de Representació",
+        "location": "Ubicació Base"
+      },
+      "cv": {
+        "title": "CV",
+        "experience": "Experiència",
+        "education": "Educació",
+        "skills": "Habilitats",
+        "languages": "Idiomes",
+        "period": "Període",
+        "institution": "Institució",
+        "year": "Any",
+        "proficiency": "Nivell"
+      },
+      "contact": {
+        "title": "Contacte",
+        "getInTouch": "Poseu-vos en Contacte",
+        "followMe": "Seguix-me",
+        "agencyInfo": "Agència",
+        "email": "Correu Electrònic",
+        "phone": "Telèfon",
+        "location": "Ubicació",
+        "agencyName": "Nom de l'Agència",
+        "agencyEmail": "Correu de l'Agència",
+        "agencyPhone": "Telèfon de l'Agència",
+        "empty": "Cap informació de contacte disponible"
+      }
+    }
+  }
+}

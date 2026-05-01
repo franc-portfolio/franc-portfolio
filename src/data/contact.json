@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "email": "hello@francescmier.com",
+    "phone": "+34 123 456 789",
+    "location": "Barcelona, Spain",
+    "socialLinks": [
+      {
+        "id": "1",
+        "platform": "Instagram",
+        "url": "https://instagram.com/francescmier",
+        "icon": "mdi:instagram"
+      },
+      {
+        "id": "2",
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/francescmier",
+        "icon": "mdi:linkedin"
+      },
+      {
+        "id": "3",
+        "platform": "Twitter",
+        "url": "https://twitter.com/francescmier",
+        "icon": "mdi:twitter"
+      },
+      {
+        "id": "4",
+        "platform": "YouTube",
+        "url": "https://youtube.com/@francescmier",
+        "icon": "mdi:youtube"
+      }
+    ],
+    "agency": {
+      "name": "Elite Talent Management",
+      "email": "bookings@elitetalent.com",
+      "phone": "+34 987 654 321"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "title": "Demo Reel",
+      "description": "Professional acting demo reel",
+      "thumbnail": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23e5e4e7' width='400' height='300'/%3E%3C/svg%3E",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "3:45"
+    },
+    {
+      "id": "2",
+      "title": "Commercial - Product A",
+      "description": "Commercial for product A",
+      "thumbnail": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23d4d2d8' width='400' height='300'/%3E%3C/svg%3E",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "0:30"
+    },
+    {
+      "id": "3",
+      "title": "Behind the Scenes",
+      "description": "Behind the scenes footage",
+      "thumbnail": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23c9c3d1' width='400' height='300'/%3E%3C/svg%3E",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "5:20"
+    }
+  ]
+}

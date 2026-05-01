@@ -1,0 +1,99 @@
+{
+  "cv": {
+    "training": [
+      {
+        "id": "1",
+        "program": "Acting Interpretation Course",
+        "institution": "Plató de Cinema",
+        "status": "Completed",
+        "startYear": "2022",
+        "endYear": "2025"
+      }
+    ],
+    "theater": [
+      {
+        "id": "1",
+        "title": "Edmond",
+        "type": "Professional theatrical production with paying audience",
+        "characters": ["Edmond (Protagonist)", "Gancho", "Prestamista", "Capellán"],
+        "year": "2025"
+      },
+      {
+        "id": "2",
+        "title": "200 Pavos",
+        "character": "Drug addict",
+        "type": "Training scene showcase"
+      },
+      {
+        "id": "3",
+        "title": "Golpecitos",
+        "character": "Gay man (Comedy)",
+        "type": "Training scene showcase"
+      },
+      {
+        "id": "4",
+        "title": "Tenis",
+        "character": "Secondary role (Casual comedy)",
+        "type": "Training scene showcase"
+      },
+      {
+        "id": "5",
+        "title": "Tanatorio",
+        "character": "Gay man (Casual comedy)",
+        "type": "Training scene showcase"
+      },
+      {
+        "id": "6",
+        "title": "Hermanos",
+        "character": "Older brother (Family drama)",
+        "type": "Training scene showcase"
+      }
+    ],
+    "audiovisual": [
+      {
+        "id": "1",
+        "role": "Stock broker (Inspired by 'The Wolf of Wall Street')",
+        "type": "Figuration"
+      },
+      {
+        "id": "2",
+        "role": "Military officer",
+        "type": "Figuration"
+      },
+      {
+        "id": "3",
+        "role": "Student",
+        "type": "Figuration"
+      },
+      {
+        "id": "4",
+        "role": "Concert audience member (Piano concert)",
+        "type": "Figuration"
+      }
+    ],
+    "skills": [
+      "Drama",
+      "Comedy",
+      "Emotional character work",
+      "Theatrical performance",
+      "Script analysis",
+      "Character development",
+      "Professional on-camera work",
+      "Multilingual performance"
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Good"
+      },
+      {
+        "language": "Catalan",
+        "proficiency": "Native"
+      }
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: var(--bg);
+  padding: 1.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: var(--sidebar-width, 240px);
+  overflow-y: auto;
+  z-index: 100;
+
+  @media (max-width: 768px) {
+    padding: 1rem 0.5rem;
+    width: var(--sidebar-width-mobile, 200px);
+  }
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  align-self: flex-start;
+}
+
+.logo {
+  font-family: var(--luxury);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  writing-mode: horizontal-tb;
+  letter-spacing: 0.5px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--text);
+  border-left: 2px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &.active {
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.nav-section {
+  display: block;
+  width: 100%;
+}
+
+.selector-container {
+  position: relative;
+  width: 100%;
+}
+
+.selector-button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  border-left: 2px solid transparent;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+
+  &:hover {
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.selector-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 0.25rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  overflow: hidden;
+  animation: slideDown 0.2s ease;
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.selector-option {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
+  text-align: left;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+
+  &:hover {
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-left-color: var(--accent);
+  }
+
+  &.active {
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 600;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+.nav-label {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+}
+
+.language-selector,
+.theme-selector {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-button,
+.theme-button {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 0.85rem;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+}
+
+.theme-button {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  border-left: 2px solid transparent;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: normal;
+  gap: 0.5rem;
+
+  &:hover {
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}

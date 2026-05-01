@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "gallery": "Galería",
+    "videobook": "Videobook",
+    "biography": "Biografía",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "pages": {
+    "home": {
+      "title": "Bienvenido a mi Portafolio",
+      "subtitle": "Explora mi trabajo en galerías, videos, biografía y más."
+    },
+    "gallery": {
+      "title": "Galería",
+      "empty": "No hay imágenes disponibles"
+    },
+    "videobook": {
+      "title": "Videobook",
+      "empty": "No hay videos disponibles"
+    },
+    "biography": {
+      "title": "Biografía",
+      "about": "Acerca de",
+      "highlights": "Destacados",
+      "details": "Detalles",
+      "height": "Altura",
+      "languages": "Idiomas",
+      "agency": "Agencia de Representación",
+      "location": "Ubicación Base"
+    },
+    "cv": {
+      "title": "CV",
+      "experience": "Experiencia",
+      "education": "Educación",
+      "skills": "Habilidades",
+      "languages": "Idiomas"
+    },
+    "contact": {
+      "title": "Contacto",
+      "getInTouch": "Ponte en Contacto",
+      "followMe": "Sígueme",
+      "agencyInfo": "Agencia",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "location": "Ubicación",
+      "agencyName": "Nombre de la Agencia",
+      "agencyEmail": "Correo de la Agencia",
+      "agencyPhone": "Teléfono de la Agencia",
+      "empty": "No hay información de contacto disponible"
+    }
+  }
+}

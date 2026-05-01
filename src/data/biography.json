@@ -1,0 +1,22 @@
+{
+  "biography": {
+    "name": "Francesc Mier Pujadó",
+    "title": "Professional Actor",
+    "bio": "Versatile actor with comprehensive theatrical training at Plató de Cinema. Experienced in drama, comedy, and emotionally demanding roles. Active in professional theater productions, showcases, and audiovisual work. Fluent in multiple languages with a strong foundation in both stage and on-camera performance.",
+    "highlights": [
+      "Professional theatrical experience with paying audience",
+      "Trained in acting at Plató de Cinema (3-year program)",
+      "Versatile in drama, comedy, and emotional character work",
+      "Experience in theatrical productions and audiovisual figurations",
+      "Fluent in English, Spanish, and Catalan"
+    ],
+    "stats": {
+      "age": "19 years old (28/12/2005)",
+      "height": "1.81 m",
+      "languages": "English, Spanish, Catalan",
+      "baseLocation": "Barcelona",
+      "phone": "+34 601 020 621",
+      "email": "francmierp@gmail.com"
+    }
+  }
+}

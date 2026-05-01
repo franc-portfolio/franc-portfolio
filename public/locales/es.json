@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "gallery": "Galería",
+    "videobook": "Videografía",
+    "biography": "Biografía",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "theme": "Tema",
+    "language": "Idioma",
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "common": {
+    "home": "Inicio",
+    "back": "Atrás",
+    "close": "Cerrar"
+  },
+  "pages": {
+    "home": {
+      "title": "Bienvenido al Portafolio",
+      "subtitle": "Explora mi trabajo en galerías, videos, biografía y mucho más.",
+      "quickNav": "Navegación Rápida"
+    },
+    "gallery": {
+      "title": "Galería",
+      "description": "Colección de fotografía profesional",
+      "empty": "Sin imágenes disponibles"
+    },
+    "videobook": {
+      "title": "Videografía",
+      "description": "Colección de videos y demostraciones",
+      "empty": "Sin videos disponibles",
+      "duration": "Duración"
+    },
+    "biography": {
+      "title": "Biografía",
+      "about": "Acerca de",
+      "highlights": "Destacados",
+      "details": "Detalles",
+      "name": "Nombre",
+      "height": "Altura",
+      "languages": "Idiomas",
+      "agency": "Agencia de Representación",
+      "location": "Ubicación Base"
+    },
+    "cv": {
+      "title": "CV",
+      "experience": "Experiencia",
+      "education": "Educación",
+      "skills": "Habilidades",
+      "languages": "Idiomas",
+      "period": "Período",
+      "institution": "Institución",
+      "year": "Año",
+      "proficiency": "Nivel"
+    },
+    "contact": {
+      "title": "Contacto",
+      "getInTouch": "Ponte en Contacto",
+      "followMe": "Sígueme",
+      "agencyInfo": "Agencia",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "location": "Ubicación",
+      "agencyName": "Nombre de la Agencia",
+      "agencyEmail": "Correo de la Agencia",
+      "agencyPhone": "Teléfono de la Agencia",
+      "empty": "Sin información de contacto disponible"
+    }
+  }
+}

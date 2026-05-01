@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "gallery": "Galeria",
+    "videobook": "Videografia",
+    "biography": "Biografia",
+    "cv": "CV",
+    "contact": "Contacte"
+  },
+  "footer": {
+    "theme": "Tema",
+    "language": "Idioma",
+    "light": "Clar",
+    "dark": "Fosc"
+  },
+  "common": {
+    "home": "Inici",
+    "back": "Enrere",
+    "close": "Tancar"
+  },
+  "pages": {
+    "home": {
+      "title": "Benvingut al Portafoli",
+      "subtitle": "Explora el meu treball en galeries, vídeos, biografia i més.",
+      "quickNav": "Navegació Ràpida"
+    },
+    "gallery": {
+      "title": "Galeria",
+      "description": "Col·lecció de fotografia professional",
+      "empty": "Cap imatge disponible"
+    },
+    "videobook": {
+      "title": "Videografia",
+      "description": "Col·lecció de vídeos i demostracions",
+      "empty": "Cap vídeo disponible",
+      "duration": "Durada"
+    },
+    "biography": {
+      "title": "Biografia",
+      "about": "Sobre",
+      "highlights": "Destacats",
+      "details": "Detalls",
+      "name": "Nom",
+      "height": "Alçada",
+      "languages": "Idiomes",
+      "agency": "Agència de Representació",
+      "location": "Ubicació Base"
+    },
+    "cv": {
+      "title": "CV",
+      "experience": "Experiència",
+      "education": "Educació",
+      "skills": "Habilitats",
+      "languages": "Idiomes",
+      "period": "Període",
+      "institution": "Institució",
+      "year": "Any",
+      "proficiency": "Nivell"
+    },
+    "contact": {
+      "title": "Contacte",
+      "getInTouch": "Poseu-vos en Contacte",
+      "followMe": "Seguix-me",
+      "agencyInfo": "Agència",
+      "email": "Correu Electrònic",
+      "phone": "Telèfon",
+      "location": "Ubicació",
+      "agencyName": "Nom de l'Agència",
+      "agencyEmail": "Correu de l'Agència",
+      "agencyPhone": "Telèfon de l'Agència",
+      "empty": "Cap informació de contacte disponible"
+    }
+  }
+}

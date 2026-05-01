@@ -1,0 +1,167 @@
+/* Page Transition Animations */
+
+/* Page wrapper styles */
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Fade out animation for exiting pages */
+@keyframes pageOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+
+/* Fade in animation for entering pages */
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply animations to wrapper based on transition stage */
+.page-wrapper.page-exit {
+  animation: pageOut 0.3s ease-in forwards;
+}
+
+.page-wrapper.page-enter {
+  animation: pageIn 0.4s ease-out forwards;
+}
+
+/* Component entry animation - swipe from top-right into view */
+@keyframes componentEntry {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) translateX(20px) scale(0.98);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1);
+  }
+}
+
+/* Apply page-in animation to entering pages */
+.page-enter {
+  animation: pageIn 0.4s ease-out forwards;
+}
+
+/* Apply page-out animation to exiting pages */
+.page-exit {
+  animation: pageOut 0.3s ease-in forwards;
+}
+
+/* Apply component entry animation to page containers */
+.page-container,
+.gallery-page,
+.cv-content,
+.bio-content,
+.contact-content,
+.videobook-grid {
+  animation: componentEntry 0.5s ease-out forwards;
+  overflow: hidden;
+}
+
+/* Stagger animations for child components */
+.gallery-card {
+  animation: componentEntry 0.5s ease-out forwards;
+}
+
+.gallery-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.gallery-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.gallery-card:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.gallery-card:nth-child(4) {
+  animation-delay: 0.2s;
+}
+
+.gallery-card:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
+.gallery-card:nth-child(6) {
+  animation-delay: 0.3s;
+}
+
+.video-item {
+  animation: componentEntry 0.5s ease-out forwards;
+}
+
+.video-item:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.video-item:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.video-item:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.experience-item {
+  animation: componentEntry 0.5s ease-out forwards;
+}
+
+.experience-item:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.experience-item:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.experience-item:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.bio-section {
+  animation: componentEntry 0.5s ease-out forwards;
+}
+
+.bio-section:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.bio-section:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.bio-section:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.contact-section {
+  animation: componentEntry 0.5s ease-out forwards;
+}
+
+.contact-section:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.contact-section:nth-child(2) {
+  animation-delay: 0.1s;
+}

@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "id": "1",
+      "title": "Portrait - 1",
+      "description": "Professional portrait",
+      "url": "/gallery/img1.jpg",
+      "category": "portrait"
+    },
+    {
+      "id": "2",
+      "title": "Portrait - 2",
+      "description": "Fashion editorial",
+      "url": "/gallery/img2.jpg",
+      "category": "fashion"
+    },
+    {
+      "id": "3",
+      "title": "Portrait - 3",
+      "description": "Lifestyle photography",
+      "url": "/gallery/img3.jpg",
+      "category": "lifestyle"
+    },
+    {
+      "id": "4",
+      "title": "Portrait - 4",
+      "description": "Commercial advertisement",
+      "url": "/gallery/img4.jpg",
+      "category": "commercial"
+    },
+    {
+      "id": "5",
+      "title": "Portrait - 5",
+      "description": "Professional headshot",
+      "url": "/gallery/img5.png",
+      "category": "portrait"
+    },
+    {
+      "id": "6",
+      "title": "Portrait - 6",
+      "description": "Fashion shoot",
+      "url": "/gallery/img6.png",
+      "category": "fashion"
+    },
+    {
+      "id": "7",
+      "title": "Portrait - 7",
+      "description": "Lifestyle moment",
+      "url": "/gallery/img7.png",
+      "category": "lifestyle"
+    },
+    {
+      "id": "8",
+      "title": "Portrait - 8",
+      "description": "Commercial work",
+      "url": "/gallery/img8.png",
+      "category": "commercial"
+    },
+    {
+      "id": "9",
+      "title": "Portrait - 9",
+      "description": "Professional portrait",
+      "url": "/gallery/img9.png",
+      "category": "portrait"
+    }
+  ]
+}
