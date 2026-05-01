@@ -1,12 +1,10 @@
 import { useTranslation } from '../hooks/useTranslation'
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react'
 import contactData from '../data/contact.json'
-import cvData from '../data/cv.json'
 
 export default function Contact() {
   const { t } = useTranslation()
   const { contact } = contactData
-  const { cv } = cvData
 
   // Find Instagram link from social links
   const instagramLink = contact.socialLinks.find(
@@ -19,21 +17,21 @@ export default function Contact() {
         <section className="contact-section">
           <h2>{t('pages.contact.getInTouch', 'Get in Touch')}</h2>
           <div className="contact-info">
-            {cv.contact?.email && (
+            {contact.email && (
               <div className="info-item">
                 <Mail size={20} />
                 <div className="info-content">
                   <strong>{t('pages.contact.email', 'Email')}:</strong>
-                  <a href={`mailto:${cv.contact.email}`}>{cv.contact.email}</a>
+                  <a href={`mailto:${contact.email}`}>{contact.email}</a>
                 </div>
               </div>
             )}
-            {cv.contact?.phone && (
+            {contact.phone && (
               <div className="info-item">
                 <Phone size={20} />
                 <div className="info-content">
                   <strong>{t('pages.contact.phone', 'Phone')}:</strong>
-                  <a href={`tel:${cv.contact.phone}`}>{cv.contact.phone}</a>
+                  <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                 </div>
               </div>
             )}
