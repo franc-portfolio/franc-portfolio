@@ -1,0 +1,27 @@
+# Cloudflare Wrangler deployment notes
+
+## Build Process
+The `wrangler.toml` file configures the build process for Cloudflare Pages deployment.
+
+### Key configurations:
+- `build.command`: Runs `npm run build` to generate the Vite production bundle
+- `compatibility_date`: Set to 2025-04-02 for latest Cloudflare runtime features
+- `compatibility_flags`: Uses `nodejs_compat` for Node.js compatibility
+
+### Environment Setup
+The `.npmrc` file contains:
+- `legacy-peer-deps=true`: Allows npm to bypass the peer dependency conflict between eslint@10.0.2 and eslint-plugin-react@7.37.5
+
+## Deployment
+1. Connect your GitHub repository to Cloudflare Pages
+2. Set the build command to: `npm run build`
+3. Set the build output directory to: `dist`
+4. The wrangler configuration will be automatically detected
+
+## Local Testing
+To test locally before deploying:
+```bash
+npm install
+npm run build
+npx wrangler pages publish dist
+```

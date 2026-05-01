@@ -1,0 +1,27 @@
+name = "franc-portfolio"
+type = "javascript"
+account_id = ""
+workers_dev = true
+routes = []
+zone_id = ""
+
+# Build configuration
+build = { command = "npm run build", cwd = "." }
+
+# Compatibility settings
+compatibility_date = "2025-04-02"
+compatibility_flags = ["nodejs_compat"]
+
+# Triggers for scheduled functions (if needed)
+# [[triggers.scheduled]]
+# cron = "0 0 * * *"
+
+# Routes configuration for Pages (optional)
+# Can be configured in wrangler.json or via Cloudflare dashboard
+
+# Environment variables can be set here or in wrangler.json
+[env.production]
+name = "franc-portfolio-prod"
+
+[env.staging]
+name = "franc-portfolio-staging"
