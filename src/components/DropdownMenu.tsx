@@ -20,16 +20,21 @@ export default function DropdownMenu({
 }: DropdownMenuProps) {
   const [isOpen, setIsOpen] = useState(false)
   const triggerRef = useRef<HTMLButtonElement>(null)
+  const menuRef = useRef<HTMLDivElement>(null)
   const [position, setPosition] = useState({ top: 0, left: 0 })
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Node
+
       if (
-        triggerRef.current &&
-        !triggerRef.current.contains(event.target as Node)
+        triggerRef.current?.contains(target) ||
+        menuRef.current?.contains(target)
       ) {
-        setIsOpen(false)
+        return
       }
+
+      setIsOpen(false)
     }
 
     if (isOpen) {
@@ -77,6 +82,7 @@ export default function DropdownMenu({
   return (
     <>
       <button
+        type="button"
         ref={triggerRef}
         onClick={() => setIsOpen(!isOpen)}
         className="dropdown-trigger"
@@ -88,16 +94,20 @@ export default function DropdownMenu({
       {isOpen &&
         createPortal(
           <div
+            ref={menuRef}
             className={`dropdown-content floating-dropdown dropdown-${align}`}
             style={{
               position: 'fixed',
               top: `${position.top}px`,
               left: `${position.left}px`,
               zIndex: 1000,
+              background: 'var(--bg)',
+              color: 'var(--text)',
             }}
           >
             {items.map((item) => (
               <button
+                type="button"
                 key={item.id}
                 onClick={() => handleItemClick(item.onClick)}
                 className={`dropdown-item ${item.isActive ? 'active' : ''}`}

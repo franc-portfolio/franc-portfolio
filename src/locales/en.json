@@ -4,7 +4,9 @@
     "videobook": "Videobook",
     "biography": "Biography",
     "cv": "CV",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "footer": {
     "language": "Language",

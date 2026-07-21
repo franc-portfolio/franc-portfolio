@@ -22,6 +22,28 @@
   overflow-y: auto;
 }
 
+@media (max-width: 768px) {
+  .app-sidebar {
+    width: 0;
+    height: 0;
+    overflow: visible;
+    pointer-events: none;
+    background: transparent;
+    border: none;
+  }
+
+  .app-sidebar > * {
+    pointer-events: auto;
+  }
+
+  .app-main {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 3.5rem;
+    min-height: 100svh;
+  }
+}
+
 /* Reset default page styles - each page sets its own */
 .page-container {
   padding: 0;
