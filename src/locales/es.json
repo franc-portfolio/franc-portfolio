@@ -37,17 +37,139 @@
       "about": "Acerca de",
       "highlights": "Destacados",
       "details": "Detalles",
+      "age": "Edad",
       "height": "Altura",
       "languages": "Idiomas",
       "agency": "Agencia de Representación",
-      "location": "Ubicación Base"
+      "location": "Ubicación Base",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "content": {
+        "name": "Francesc Mier Pujadó",
+        "title": "Actor Profesional",
+        "bio": "Actor versátil con formación teatral integral en Plató de Cinema. Experiencia en drama, comedia y personajes emocionalmente exigentes. Activo en producciones teatrales profesionales, muestras y trabajo audiovisual. Domina varios idiomas con una sólida base en interpretación escénica y ante cámara.",
+        "highlightItems": [
+          "Experiencia teatral profesional con público de pago",
+          "Formación en interpretación en Plató de Cinema (programa de 3 años)",
+          "Versátil en drama, comedia y trabajo de personajes emocionales",
+          "Experiencia en producciones teatrales y figuraciones audiovisuales",
+          "Fluido en inglés, español y catalán"
+        ],
+        "stats": {
+          "age": "19 años (28/12/2005)",
+          "height": "1,81 m",
+          "languages": "Inglés, Español, Catalán",
+          "baseLocation": "Barcelona",
+          "phone": "+34 601 020 621",
+          "email": "francmierp@gmail.com"
+        }
+      }
     },
     "cv": {
       "title": "CV",
+      "theater": "Teatro",
+      "audiovisual": "Trabajo Audiovisual",
       "experience": "Experiencia",
       "education": "Educación",
       "skills": "Habilidades",
-      "languages": "Idiomas"
+      "languages": "Idiomas",
+      "content": {
+        "education": [
+          {
+            "id": "1",
+            "program": "Curso de Interpretación",
+            "institution": "Plató de Cinema",
+            "status": "Completado",
+            "startYear": "2022",
+            "endYear": "2025"
+          }
+        ],
+        "theater": [
+          {
+            "id": "1",
+            "title": "Edmond",
+            "type": "Producción teatral profesional con público de pago",
+            "characters": ["Edmond (Protagonista)", "Gancho", "Prestamista", "Capellán"],
+            "year": "2025"
+          },
+          {
+            "id": "2",
+            "title": "200 Pavos",
+            "character": "Drogadicto",
+            "type": "Muestra de escena educativa"
+          },
+          {
+            "id": "3",
+            "title": "Golpecitos",
+            "character": "Hombre gay (Comedia)",
+            "type": "Muestra de escena educativa"
+          },
+          {
+            "id": "4",
+            "title": "Tenis",
+            "character": "Papel secundario (Comedia casual)",
+            "type": "Muestra de escena educativa"
+          },
+          {
+            "id": "5",
+            "title": "Tanatorio",
+            "character": "Hombre gay (Comedia casual)",
+            "type": "Muestra de escena educativa"
+          },
+          {
+            "id": "6",
+            "title": "Hermanos",
+            "character": "Hermano mayor (Drama familiar)",
+            "type": "Muestra de escena educativa"
+          }
+        ],
+        "audiovisual": [
+          {
+            "id": "1",
+            "role": "Corredor de bolsa (Inspirado en 'El lobo de Wall Street')",
+            "type": "Figuración"
+          },
+          {
+            "id": "2",
+            "role": "Oficial militar",
+            "type": "Figuración"
+          },
+          {
+            "id": "3",
+            "role": "Estudiante",
+            "type": "Figuración"
+          },
+          {
+            "id": "4",
+            "role": "Espectador de concierto (Concierto de piano)",
+            "type": "Figuración"
+          }
+        ],
+        "skills": [
+          "Drama",
+          "Comedia",
+          "Trabajo de personajes emocionales",
+          "Interpretación teatral",
+          "Análisis de guion",
+          "Desarrollo de personaje",
+          "Trabajo profesional ante cámara",
+          "Interpretación multilingüe"
+        ],
+        "languages": [
+          {
+            "language": "Español",
+            "proficiency": "Nativo"
+          },
+          {
+            "language": "Inglés",
+            "proficiency": "Bueno"
+          },
+          {
+            "language": "Catalán",
+            "proficiency": "Nativo"
+          }
+        ]
+      }
     },
     "contact": {
       "title": "Contacto",

@@ -37,17 +37,139 @@
       "about": "Sobre",
       "highlights": "Destacats",
       "details": "Detalls",
+      "age": "Edat",
       "height": "Alçada",
       "languages": "Idiomes",
       "agency": "Agència de Representació",
-      "location": "Ubicació Base"
+      "location": "Ubicació Base",
+      "phone": "Telèfon",
+      "email": "Correu",
+      "content": {
+        "name": "Francesc Mier Pujadó",
+        "title": "Actor Professional",
+        "bio": "Actor versàtil amb formació teatral integral a Plató de Cinema. Experiència en drama, comèdia i personatges emocionalment exigents. Actiu en produccions teatrals professionals, mostres i treball audiovisual. Domina diversos idiomes amb una sòlida base en interpretació escènica i davant càmera.",
+        "highlightItems": [
+          "Experiència teatral professional amb públic de pagament",
+          "Formació en interpretació a Plató de Cinema (programa de 3 anys)",
+          "Versàtil en drama, comèdia i treball de personatges emocionals",
+          "Experiència en produccions teatrals i figuracions audiovisuals",
+          "Fluent en anglès, espanyol i català"
+        ],
+        "stats": {
+          "age": "19 anys (28/12/2005)",
+          "height": "1,81 m",
+          "languages": "Anglès, Espanyol, Català",
+          "baseLocation": "Barcelona",
+          "phone": "+34 601 020 621",
+          "email": "francmierp@gmail.com"
+        }
+      }
     },
     "cv": {
       "title": "CV",
+      "theater": "Teatre",
+      "audiovisual": "Treball Audiovisual",
       "experience": "Experiència",
       "education": "Educació",
       "skills": "Habilitats",
-      "languages": "Idiomes"
+      "languages": "Idiomes",
+      "content": {
+        "education": [
+          {
+            "id": "1",
+            "program": "Curs d'Interpretació",
+            "institution": "Plató de Cinema",
+            "status": "Completat",
+            "startYear": "2022",
+            "endYear": "2025"
+          }
+        ],
+        "theater": [
+          {
+            "id": "1",
+            "title": "Edmond",
+            "type": "Producció teatral professional amb públic de pagament",
+            "characters": ["Edmond (Protagonista)", "Gancho", "Prestamista", "Capellà"],
+            "year": "2025"
+          },
+          {
+            "id": "2",
+            "title": "200 Pavos",
+            "character": "Drogaddicte",
+            "type": "Mostra d'escena educativa"
+          },
+          {
+            "id": "3",
+            "title": "Golpecitos",
+            "character": "Home gai (Comèdia)",
+            "type": "Mostra d'escena educativa"
+          },
+          {
+            "id": "4",
+            "title": "Tenis",
+            "character": "Paper secundari (Comèdia casual)",
+            "type": "Mostra d'escena educativa"
+          },
+          {
+            "id": "5",
+            "title": "Tanatorio",
+            "character": "Home gai (Comèdia casual)",
+            "type": "Mostra d'escena educativa"
+          },
+          {
+            "id": "6",
+            "title": "Hermanos",
+            "character": "Germà gran (Drama familiar)",
+            "type": "Mostra d'escena educativa"
+          }
+        ],
+        "audiovisual": [
+          {
+            "id": "1",
+            "role": "Corredor de borsa (Inspirat en 'El llop de Wall Street')",
+            "type": "Figuració"
+          },
+          {
+            "id": "2",
+            "role": "Oficial militar",
+            "type": "Figuració"
+          },
+          {
+            "id": "3",
+            "role": "Estudiant",
+            "type": "Figuració"
+          },
+          {
+            "id": "4",
+            "role": "Espectador de concert (Concert de piano)",
+            "type": "Figuració"
+          }
+        ],
+        "skills": [
+          "Drama",
+          "Comèdia",
+          "Treball de personatges emocionals",
+          "Interpretació teatral",
+          "Anàlisi de guió",
+          "Desenvolupament de personatge",
+          "Treball professional davant càmera",
+          "Interpretació multilingüe"
+        ],
+        "languages": [
+          {
+            "language": "Espanyol",
+            "proficiency": "Natiu"
+          },
+          {
+            "language": "Anglès",
+            "proficiency": "Bo"
+          },
+          {
+            "language": "Català",
+            "proficiency": "Natiu"
+          }
+        ]
+      }
     },
     "contact": {
       "title": "Contacte",

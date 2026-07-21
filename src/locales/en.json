@@ -37,17 +37,139 @@
       "about": "About",
       "highlights": "Highlights",
       "details": "Details",
+      "age": "Age",
       "height": "Height",
       "languages": "Languages",
       "agency": "Signing Agency",
-      "location": "Base Location"
+      "location": "Base Location",
+      "phone": "Phone",
+      "email": "Email",
+      "content": {
+        "name": "Francesc Mier Pujadó",
+        "title": "Professional Actor",
+        "bio": "Versatile actor with comprehensive theatrical training at Plató de Cinema. Experienced in drama, comedy, and emotionally demanding roles. Active in professional theater productions, showcases, and audiovisual work. Fluent in multiple languages with a strong foundation in both stage and on-camera performance.",
+        "highlightItems": [
+          "Professional theatrical experience with paying audience",
+          "Trained in acting at Plató de Cinema (3-year program)",
+          "Versatile in drama, comedy, and emotional character work",
+          "Experience in theatrical productions and audiovisual figurations",
+          "Fluent in English, Spanish, and Catalan"
+        ],
+        "stats": {
+          "age": "19 years old (28/12/2005)",
+          "height": "1.81 m",
+          "languages": "English, Spanish, Catalan",
+          "baseLocation": "Barcelona",
+          "phone": "+34 601 020 621",
+          "email": "francmierp@gmail.com"
+        }
+      }
     },
     "cv": {
       "title": "CV",
+      "theater": "Theater",
+      "audiovisual": "Audiovisual Work",
       "experience": "Experience",
       "education": "Education",
       "skills": "Skills",
-      "languages": "Languages"
+      "languages": "Languages",
+      "content": {
+        "education": [
+          {
+            "id": "1",
+            "program": "Acting Interpretation Course",
+            "institution": "Plató de Cinema",
+            "status": "Completed",
+            "startYear": "2022",
+            "endYear": "2025"
+          }
+        ],
+        "theater": [
+          {
+            "id": "1",
+            "title": "Edmond",
+            "type": "Professional theatrical production with paying audience",
+            "characters": ["Edmond (Protagonist)", "Gancho", "Prestamista", "Capellán"],
+            "year": "2025"
+          },
+          {
+            "id": "2",
+            "title": "200 Pavos",
+            "character": "Drug addict",
+            "type": "Education scene showcase"
+          },
+          {
+            "id": "3",
+            "title": "Golpecitos",
+            "character": "Gay man (Comedy)",
+            "type": "Education scene showcase"
+          },
+          {
+            "id": "4",
+            "title": "Tenis",
+            "character": "Secondary role (Casual comedy)",
+            "type": "Education scene showcase"
+          },
+          {
+            "id": "5",
+            "title": "Tanatorio",
+            "character": "Gay man (Casual comedy)",
+            "type": "Education scene showcase"
+          },
+          {
+            "id": "6",
+            "title": "Hermanos",
+            "character": "Older brother (Family drama)",
+            "type": "Education scene showcase"
+          }
+        ],
+        "audiovisual": [
+          {
+            "id": "1",
+            "role": "Stock broker (Inspired by 'The Wolf of Wall Street')",
+            "type": "Figuration"
+          },
+          {
+            "id": "2",
+            "role": "Military officer",
+            "type": "Figuration"
+          },
+          {
+            "id": "3",
+            "role": "Student",
+            "type": "Figuration"
+          },
+          {
+            "id": "4",
+            "role": "Concert audience member (Piano concert)",
+            "type": "Figuration"
+          }
+        ],
+        "skills": [
+          "Drama",
+          "Comedy",
+          "Emotional character work",
+          "Theatrical performance",
+          "Script analysis",
+          "Character development",
+          "Professional on-camera work",
+          "Multilingual performance"
+        ],
+        "languages": [
+          {
+            "language": "Spanish",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Good"
+          },
+          {
+            "language": "Catalan",
+            "proficiency": "Native"
+          }
+        ]
+      }
     },
     "contact": {
       "title": "Contact",

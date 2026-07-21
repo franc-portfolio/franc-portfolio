@@ -325,8 +325,8 @@
   font-style: italic;
 }
 
-/* Training, Theater, and Audiovisual sections */
-.training-list,
+/* Education, Theater, and Audiovisual sections */
+.education-list,
 .theater-list,
 .audiovisual-list {
   display: grid;
@@ -338,7 +338,7 @@
   }
 }
 
-.training-item,
+.education-item,
 .theater-item,
 .audiovisual-item {
   padding: 1rem;
@@ -347,22 +347,22 @@
   border-radius: 4px;
 }
 
-.training-item h3,
+.education-item h3,
 .theater-item h3,
 .audiovisual-item h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.1rem;
 }
 
-/* Training Header with Program and Year Range */
-.training-header {
+/* Education Header with Program and Year Range */
+.education-header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
 }
 
-.training-header h3 {
+.education-header h3 {
   margin: 0;
   font-size: 1.1rem;
 }
@@ -424,7 +424,7 @@
   opacity: 0.9;
 }
 
-.training-item p,
+.education-item p,
 .theater-item p,
 .audiovisual-item p {
   margin: 0.25rem 0;

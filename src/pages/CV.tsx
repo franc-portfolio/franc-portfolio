@@ -1,40 +1,75 @@
-import { useTranslation } from "../hooks/useTranslation";
-import { User, Calendar, GraduationCap, Zap } from "lucide-react";
-import cvData from "../data/cv.json";
+import { useTranslation } from '../hooks/useTranslation'
+import { User, Calendar, GraduationCap, Zap } from 'lucide-react'
+
+type EducationItem = {
+  id: string
+  program: string
+  institution: string
+  status: string
+  startYear?: string
+  endYear?: string
+}
+
+type TheaterItem = {
+  id: string
+  title: string
+  type: string
+  year?: string
+  character?: string
+  characters?: string[]
+}
+
+type AudiovisualItem = {
+  id: string
+  role: string
+  type: string
+}
+
+type LanguageItem = {
+  language: string
+  proficiency: string
+}
+
+type CVContent = {
+  education: EducationItem[]
+  theater: TheaterItem[]
+  audiovisual: AudiovisualItem[]
+  skills: string[]
+  languages: LanguageItem[]
+}
 
 export default function CV() {
-  const { t } = useTranslation();
-  const { cv } = cvData;
+  const { t } = useTranslation()
+  const cv = t('pages.cv.content', { returnObjects: true }) as CVContent
 
   return (
     <div className="page-container">
       <div className="cv-content">
         <section className="cv-section">
-          <h2>{t("pages.cv.training", "Training")}</h2>
-          <div className="training-list">
-            {cv.training?.map((training) => (
-              <div key={training.id} className="training-item">
-                <div className="training-header">
-                  <h3>{training.program}</h3>
-                  {training.startYear && training.endYear && (
+          <h2>{t('pages.cv.education', 'Education')}</h2>
+          <div className="education-list">
+            {cv.education?.map((education) => (
+              <div key={education.id} className="education-item">
+                <div className="education-header">
+                  <h3>{education.program}</h3>
+                  {education.startYear && education.endYear && (
                     <span className="year-range">
-                      <Calendar size={14} /> {training.startYear} -{" "}
-                      {training.endYear}
+                      <Calendar size={14} /> {education.startYear} - {education.endYear}
                     </span>
                   )}
                 </div>
                 <span className="institution-badge">
                   <GraduationCap size={14} />
-                  {training.institution}
+                  {education.institution}
                 </span>
-                <p className="status">{training.status}</p>
+                <p className="status">{education.status}</p>
               </div>
             ))}
           </div>
         </section>
 
         <section className="cv-section">
-          <h2>{t("pages.cv.theater", "Theater")}</h2>
+          <h2>{t('pages.cv.theater', 'Theater')}</h2>
           <div className="theater-list">
             {cv.theater?.map((production) => (
               <div key={production.id} className="theater-item">
@@ -69,7 +104,7 @@ export default function CV() {
         </section>
 
         <section className="cv-section">
-          <h2>{t("pages.cv.audiovisual", "Audiovisual Work")}</h2>
+          <h2>{t('pages.cv.audiovisual', 'Audiovisual Work')}</h2>
           <div className="audiovisual-list">
             {cv.audiovisual?.map((work) => (
               <div key={work.id} className="audiovisual-item">
@@ -85,7 +120,7 @@ export default function CV() {
         </section>
 
         <section className="cv-section">
-          <h2>{t("pages.cv.skills", "Skills")}</h2>
+          <h2>{t('pages.cv.skills', 'Skills')}</h2>
           <div className="skills-grid">
             {cv.skills?.map((skill, index) => (
               <span key={index} className="skill-tag">
@@ -96,7 +131,7 @@ export default function CV() {
         </section>
 
         <section className="cv-section">
-          <h2>{t("pages.cv.languages", "Languages")}</h2>
+          <h2>{t('pages.cv.languages', 'Languages')}</h2>
           <div className="languages-list">
             {cv.languages?.map((lang, index) => (
               <div key={index} className="language-item">
@@ -108,5 +143,5 @@ export default function CV() {
         </section>
       </div>
     </div>
-  );
+  )
 }
